@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f1ea;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding: 40px 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 900;
+  margin-bottom: 12px;
+  font-size: 36px;
+  text-align: center;
+  color: #1e293b;
+}
+
+.badges {
+  background-color: #ff5722;
+  color: #ffffff;
+  width: auto;
+  display: inline-block;
+  padding: 4px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0 auto 24px auto;
+}
+
+.presentation {
+  width: 100%;
+  color: #475569;
+  background-color: #ffffff;
+  border-radius: 24px;
+  padding: 80px 50px 50px 50px;
+  margin-top: -70px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+  display: block;
+  width: 280px;
+  margin: 0 auto 20px auto;
+}
+
+.description {
+  margin-bottom: 16px;
+  line-height: 1.7;
+  font-size: 15px;
+  text-align: left;
+}
+
+.pokemon {
+  width: 260px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  filter: drop-shadow(0 15px 10px rgba(0, 0, 0, 0.15));
+  transition: transform 0.3s ease;
+}
+
+.pokemon img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.pokemon:hover {
+  transform: translateY(-6px);
+}
+
+.button {
+  display: block;
+  width: 100%;
+  margin-top: 24px;
+  background-color: #ff5722;
+  border: none;
+  color: white;
+  padding: 14px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  transition:
+    background-color 0.2s ease,
+    transform 0.1s ease;
+}
+
+.button:hover {
+  background-color: #e64a19;
+  cursor: pointer;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(255, 87, 34, 0.25);
+}
